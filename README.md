@@ -9,7 +9,7 @@ Since most of materials and programs were written in Polish, I segragated files 
 # archive-academic-java-pl
 This repository contains:
 * KNITS_2014 and KNITS_2015 - presentation files during my speeches
-* 'praca_inzynierska' / 'praca_licencjacka_forum' - two theses. Second also includes working application. It contains simple desktop Java application providing forum features
+* 'praca_inzynierska' / 'praca_licencjacka_forum' - two theses. Second also includes working application. It contains simple desktop Java application providing forum functionalities
 * shopping_lists - the application on Adroid devices that enables CRUD operation on products and shopping lists
 * student_schedule - a simple project that uses jQuery, Drag'n Drop and Bootstrap
 
