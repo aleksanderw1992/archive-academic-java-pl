@@ -1,0 +1,1 @@
+Praca zaliczeniowa z okresu studiów. Wykorzystuje narzêdzie jQuery + Bootstrap + mechanizm Drag'n Drop

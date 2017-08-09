@@ -1,0 +1,102 @@
+﻿body {
+    background-color: grey;
+}
+
+header {
+    font-size: 1.2em;
+    font-family: Impact;
+    color: #ffff00;
+    text-align: right;
+    text-shadow: black 3px 3px 1px;
+}
+
+h1 {
+    font-size: 3.7em;
+    font-family: Arial;
+    color: #0000ff;
+    text-align: center;
+    text-shadow: black 3px 3px 1px;
+}
+
+p {
+    font-size: 1.8em;
+    font-family: Courier New;
+    color: #00ff00;
+    margin-top: -0.5cm;
+    margin-bottom: 2.5cm;
+    text-align: center;
+    text-shadow: black 3px 3px 1px;
+    transform: rotate(-3.5deg);
+}
+
+table, th, tr {
+    background-color: green;
+    text-align: center;
+    width: 75%;
+    border-collapse: collapse;
+    border: 2px solid #ffff00;
+}
+
+/*div {font-size: 2.2em; font-family: Arial; color: #00ff00; border-top: 2px solid #ffff00;}*/
+
+.tr-h-1 {
+    height: 30px;
+}
+
+.tr-h-2 {
+    height: 50px;
+}
+
+.tr-h-3 {
+    height: 70px;
+}
+
+.tr-h-4 {
+    height: 90px;
+}
+
+#dodaj {
+    float: left;
+    padding: 10px;
+    border: 2px solid #ffff00;
+}
+
+#usun {
+    float: center;
+    padding: 10px;
+    border: 2px solid #ffff00;
+}
+
+#zmien {
+    float: right;
+    padding: 10px;
+    border: 2px solid #ffff00;
+}
+
+#zaplanowane {
+    float: left;
+    width: 40%;
+    height: 1px;
+    padding: 30px;
+    border: 2px solid #ffff00;
+}
+
+#planowane {
+    float: left;
+    width: 30%;
+    height: 1px;
+    padding: 30px;
+    border: 2px solid #ffff00;
+}
+
+#sekcja_lewa {
+    float: left;
+    padding: 10px;
+    border: 2px solid #ffff00;
+}
+
+#sekcja_prawa {
+    float: right;
+    padding: 10px;
+    border: 2px solid #ffff00;
+}

@@ -1,0 +1,132 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Plan zajęć studenta</title>
+    <link rel="stylesheet" type="text/css" href="main_css.css">
+    <!--<link rel="icon" type="image/png" href="grafiki/ikona_strony.jpg">-->
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+
+    <script src="jquery-core-1.9.1.js"></script>
+
+    <script src="jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="jquery-ui.structure.css"/>
+    <link rel="stylesheet" type="text/css" href="jquery-ui.theme.css"/>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap-theme.css"/>
+    <script src="bootstrap.js"></script>
+</head>
+
+<body id="body" ondrop="drop(event)" ondragover="allowDrop(event)">
+<header id="czas"></header>
+<script src="main_js.js"></script>
+<script src="notes.js"></script>
+<h1>Plan zajęć studenta</h1>
+
+<p>wreszcie wszystko uporządkowane...</p>
+
+
+<div class="row">
+    <div class="col-lg-2">
+        <input class="btn btn-primary" id="new_button" value="+">
+    </div>
+    <div class="col-lg-2"></div>
+    <div class="col-lg-2">
+        <input type="text" id="datepicker">
+    </div>
+</div>
+<div class="row">
+    <div class="col col-lg-6">
+        <section id="left_section">
+            <table id="planned_task_table" class="table">
+                <thead>
+                <tr>
+                    <td>Lista zajęć planowanych</td>
+                </tr>
+                </thead>
+                <tbody id="planned_tbody">
+
+
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <div class="col col-lg-6">
+        <section id="right_section">
+            <table class="table" id="not_planned_task_table">
+                <thead>
+                <tr>
+                    <td>Lista zajęć niezaplanowanych</td>
+                </tr>
+                </thead>
+                <tbody id="not_planned_tbody">
+                </tbody>
+            </table>
+
+        </section>
+    </div>
+</div>
+
+<div class="row">
+    <section id="main" class="container-fluid">
+        <div id="myTex" style="display:none">
+
+            <form id="my_form">
+                <input type="hidden" id="current_note_id">
+                <input type="hidden" id="planned_table_clicked">
+                <input class="btn btn-primary" type="button" onclick="on_save_button(event);"
+                       id="save_button" name="save_button"
+                       value="Dodaj">
+                <input class="btn btn-primary" type="button" onclick="on_change_button();"
+                       id="change_button" name="change_button"
+                       value="Zmień">
+                <input class="btn btn-danger" type="button" onclick="on_delete_button()"
+                       type="button" id="delete_button"
+                       value="Usuń">
+                <input class="btn btn-default" type="button" onclick="on_cancel_button()"
+                       type="button" id="cancel_button" name="cancel_button" value="Anuluj">
+
+                <br>
+
+                <div class="form-group">
+                    <ul>
+                        <li>
+                            Nazwa zadania
+                            <input type="text" id="task_name" class="form-control" value="" placeholder="Nazwa zadania"
+                                   required="required">
+
+                        </li>
+                        <li>
+                            <label for="task_duration" id="a2">Czas szacowany (długość)</label>
+                            <input type="number" id="task_duration" class="form-control" placeholder="1,2,3...4" min="1"
+                                   max="4">
+
+                        </li>
+                        <!--case 1:return "warning";-->
+                        <!--case 2:return "info";-->
+                        <!--case 3:return "danger";-->
+                        <li>
+                            Rodzaj zadania:<br>
+                            <input type="radio" name="task_type" value="type_1" id="type_1" checked>
+                        <span class="label label-warning">zajęcia wynikające z planu zajęć na studiach
+                        </span><br>
+
+                            <input type="radio" name="task_type" value="type_2" id="type_2">
+                        <span class="label label-info">zajęcia dodatkowe na uczelni
+                        </span><br>
+
+                            <input type="radio" name="task_type" value="type_3" id="type_3">
+                        <span class="label label-danger">
+                        zajęcia prywatne
+                        </span><br>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name_shopping_list">Listy zakupow</string>
+    <string name="activity_name_main">Listy zakupow</string>
+    <string name="activity_name_product_list">Lista produktow</string>
+    <string name="activity_name_add_new_product">Dodaj produkt</string>
+    <string name="activity_name_add_new_shopping_list">Dodaj liste</string>
+    <string name="activity_name_change_product">Zmien produkt</string>
+    <string name="activity_name_use_existing">Wybierz produkt z juz dodanych</string>
+    <string name="underscore">_</string>
+
+    <string name="default_quantity">1</string>
+    <string name="email_topic">Lista zakupow: </string>
+    <string name="add_product">Dodaj</string>
+    <string name="add_new_product">Dodaj towar</string>
+    <string name="action_settings_of_framework">Settings</string>
+    <string name="to_default_shopping_list">Domyslna lista</string>
+    <string name="edit_current_product">Edytuj towar</string>
+    <string name="delete_current_product">Usun towar</string>
+    <string name="edit">Edytuj</string>
+    <string name="delete">Usun</string>
+    <string name="product_measure">Jednostka</string>
+    <string name="product_name">Nazwa produktu</string>
+    <string name="quantity">Ilosc</string>
+    <string name="back">Wroc</string>
+    <string name="clear_list_of_products">Wyczysc</string>
+    <string name="add_new_shopping_list">Dodaj kolejna liste</string>
+    <string name="add_shopping_list_to_list">Dodaj liste do spisu</string>
+    <string name="name_of_the_list">nazwa_listy</string>
+    <string name="row_view_default_label">Domyslna etykieta</string>
+    <string name="use_existing_product">Uzyj istniejacego</string>
+    <string name="delete_lists">Usun listy</string>
+    <string name="default_list_name">Domyslna lista</string>
+    <string name="if_shopping_mode">Tryb zakupow</string>
+    <string name="gui_need_edit_at_least_one_field">Musisz edytowac conajmniej jedno pole</string>
+    <string name="gui_fill_in_all_fields">Musisz wypelnic wszystkie pola</string>
+    <string name="gui_incorrect_quantity">"Podano nieprawidlowa ilosc "</string>
+    <string name="gui_do_not_use_space">Prosilbym nie uzywac spacji</string>
+    <string name="gui_name_should_contain_two_chars">Nazwa listy musi byc conajmniej dwuznakowa</string>
+    <string name="gui_list_already_exists">Istnieje juz lista o takiej nazwie</string>
+    <string name="gui_cannot_delete_this_button">Nie mozesz usunac tego przycisku</string>
+    <string name="gui_cannot_delete_default_list">To jest domyslna lista- nie mozesz usunac</string>
+    <string name="gui_cleared_lists">Wyczyszczono liste </string>
+    <string name="gui_you_clicked">"Kliknales pozycje: "</string>
+    <string name="gui_no_changes">"Zmien produkt lub kliknij Wroc: "</string>
+    <string name="gui_product_action_changed">"Zmieniono towar: "</string>
+    <string name="gui_product_action_deleted">"Usunieto towar: "</string>
+    <string name="gui_product_action_added">"Dodano towar: "</string>
+    <string name="gui_empty_bundle_warning">Bundle jest pusty. Aplikacja moze dzialac niepoprawnie</string>
+    <string name="gui_exception_product_already_exists">Produkt juz istnieje na liscie - nie mozna dodac</string>
+    <string name="gui_exception_empty_list_email">Lista jest pusta- nie mozna wyslac mailem</string>
+    <string name="gui_exception_no_email_client">No emailIntent client installed</string>
+    <string name="send_email_text">Wyslij mailem</string>
+    <string name="send_sms_text">Wyslij sms</string>
+
+</resources>

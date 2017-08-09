@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name_shopping_list">Shopping lists</string>
+    <string name="activity_name_main">Shopping lists</string>
+    <string name="activity_name_product_list">Products list</string>
+    <string name="activity_name_add_new_product">Add product</string>
+    <string name="activity_name_add_new_shopping_list">Add shopping list</string>
+    <string name="activity_name_change_product">Change product</string>
+    <string name="activity_name_use_existing">Choose from existing</string>
+    <string name="underscore">_</string>
+
+    <string name="default_quantity">1</string>
+    <string name="email_topic">Shopping list: </string>
+    <string name="add_product">Add</string>
+    <string name="add_new_product">Add product</string>
+    <string name="action_settings_of_framework">Settings</string>
+    <string name="to_default_shopping_list">Default list</string>
+    <string name="edit_current_product">Edit product</string>
+    <string name="delete_current_product">Delete product</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="product_measure">Measure</string>
+    <string name="product_name">Product name</string>
+    <string name="quantity">Quantity</string>
+    <string name="back">Back</string>
+    <string name="clear_list_of_products">Clear</string>
+    <string name="add_new_shopping_list">Add shopping list</string>
+    <string name="add_shopping_list_to_list">Add shopping list</string>
+    <string name="name_of_the_list">list_name</string>
+    <string name="row_view_default_label">Default label</string>
+    <string name="use_existing_product">Use existing</string>
+    <string name="delete_lists">Delete shopping lists</string>
+    <string name="default_list_name">Default list</string>
+    <string name="if_shopping_mode">Shopping mode</string>
+    <string name="gui_need_edit_at_least_one_field">You need to edit at least field</string>
+    <string name="gui_fill_in_all_fields">You need to fill in all fields</string>
+    <string name="gui_incorrect_quantity">"Wrong quantity"</string>
+    <string name="gui_do_not_use_space">Please avoid using space</string>
+    <string name="gui_name_should_contain_two_chars">The name of a shopping list should have two chars</string>
+    <string name="gui_list_already_exists">The list with the such a name already exists</string>
+    <string name="gui_cannot_delete_this_button">You cannot delete this button</string>
+    <string name="gui_cannot_delete_default_list">This is the default list - cannot delete</string>
+    <string name="gui_cleared_lists">The list is cleared</string>
+    <string name="gui_you_clicked">"You clicked: "</string>
+    <string name="gui_no_changes">"Change product or click Back: "</string>
+    <string name="gui_product_action_changed">"The product has been changed: "</string>
+    <string name="gui_product_action_deleted">"The product has been deleted: "</string>
+    <string name="gui_product_action_added">"The product has been added: "</string>
+    <string name="gui_empty_bundle_warning">Bundle is empty. Application can work not properly</string>
+    <string name="gui_exception_product_already_exists">Product already exists on the list- cannot add</string>
+    <string name="gui_exception_empty_list_email">List is empty - cannot send via email</string>
+    <string name="gui_exception_no_email_client">No emailIntent client installed</string>
+    <string name="send_email_text">Send email</string>
+    <string name="send_sms_text">Send sms</string>
+
+</resources>

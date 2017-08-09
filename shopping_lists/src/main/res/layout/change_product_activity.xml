@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <EditText
+                android:id="@+id/change_product_name_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:text="@string/underscore"/>
+
+        <EditText
+                android:id="@+id/change_product_measute_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:text="@string/underscore"/>
+
+        <EditText
+                android:id="@+id/change_product_quantity_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:text="@string/underscore"/>
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/change_product_edit_label_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_current_product"/>
+
+    <Button
+            android:id="@+id/change_product_delete_label_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_current_product"/>
+    <Button
+            android:id="@+id/back_from_change_product_activity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back"/>
+
+</LinearLayout>

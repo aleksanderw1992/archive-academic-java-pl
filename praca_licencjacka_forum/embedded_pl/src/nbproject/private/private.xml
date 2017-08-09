@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/client/facade/FacadeJDBC.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/client/gui/RegisterWindow.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/common/domain/Topic.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/resources/Bundle.properties</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/client/facade/FacadeRMI.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/common/domain/Post.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/client/gui/PostPanel.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/client/gui/AddNewTopicWindow.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/common/domain/User.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/client/facade/FacadesEnum.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/client/gui/LogInWindow.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/client/facade/Facade.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/client/application/ConnectionJDBC.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/client/gui/MainWindow.java</file>
+            <file>file:/C:/Users/AXELA/Documents/NetBeansProjects/Forum_h2/src/client/gui/TopicForm.java</file>
+        </group>
+    </open-files>
+</project-private>
